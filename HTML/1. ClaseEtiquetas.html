@@ -1,0 +1,79 @@
+<!--creo la carpeta del proyecto en la raiz o donde haya creado la carpeta, ejemplo: "E:\Users\johnk\Escritorio\CURSO ATENEA\EJERCICIOS\HTML"-->
+<!--para crear un nuevo proyecto oprimo nuevo archivo-->
+<!--para crear la estructura inicial digito html:5+enter, o digito signo de !+Tab-->
+<!--en la etiqueta title digito el titulo de la pagina ej:<title>Hola Mundo</title>-->
+<!--para crear comentarios digito <!-- o puedo oprimir la tecla ctrl+} corchete cierra-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Esta es la cabecera del documento HTML-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--EN TITLE ES DONDE COLOCO EL TITULO DE MI SITIO WEB-->
+    <title>Etiequetas Html</title>
+</head>
+<body>
+    <!--cuerpo del documento HTML-->
+    <!--LA ETIQUETA P ES LA ETIQUETA PARA CREAR PARRAFOS-->
+    <p> Esta es la etiqueta que se utiliza para los parrafos P </p>
+    <!--Etiqueta h es para encabezados de diferente tamaño TITULOS-->
+    <h1>ENCABEZADO PRINCIPAL DE NUESTRO SITIO WEB</h1>
+        <P>Y SOLO PUEDE HABER UN ENCABEZADO PRINCIPAL H1 POR CADA DOCUMENTO HTML</P>
+    <h2>Encabezado de segundo nivel h2</h2>
+    <h3>Encabezado de tercer nivel h3</h3>
+    <h4>Encabezado de cuarto nivel h4</h4>
+    <h5>Encabezado de quinto nivel h5</h5>
+    <h6>Encabezado de sexto nivel h6</h6>
+    <!--ETIQUETAS DE PARRAFO O TEXTO-->
+    <P>ESTE ES MI PRIMER PARRAFO</P>
+    <!---Etiqueta para NEGRILLA es <b></b>->
+    <!--Etiqueta para CURSIVA es <i></i>-->
+    <!--Etiqueta para SUBRAYADO es <u></u>-->
+    <!--Etiqueta para TEXTO RESALTADO es <mark></mark>-->
+    <p><b>TEXTO EN NEGILLA</b></p>
+    <p><i>TEXTO EN CURSIVA</i></p>
+    <p><u>TEXTO SUBRAYADO</u></p>
+    <p><mark>TEXTO RESALTADO</mark></p>
+    <p><b><i>TEXTO EN NEGILLA & CURSIVA</i></b></p>
+
+    <!--Alt + Z sirve para justificar el texto del codigo-->
+
+    <P>Lorem ipsum dolor, sit amet <b>TEXTO EN NEGRILLA</b>consectetur adipisicing elit. 
+        <br>
+        <br>
+        <br>
+        Quam consequuntur enim aperiam <i>TEXTO EN CURSIVA</i> qui quaerat doloribus dignissimos praesentium dolor modi culpa ut architecto, omnis fugiat alias explicabo, nihil aspernatur non accusantium.</P>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt ea magni veniam reprehenderit? Fugiat facere eaque consequatur, assumenda error numquam dignissimos quis accusantium molestiae laudantium ipsa, earum totam aspernatur commodi?</p>
+
+    <!--ETIQUETAS MULTIMEDIA-->
+    <!--Son las que permiten poner multimedia a nuestra pagina web, imagen, video-->
+    <!--la etiqueta <img> me permite poner imagenes en html, NO nececita etiqueta de cierre-->
+   <img src="https://especiales.semana.com/especiales/millonarios-campeon/images/millos.jpg" width="50%" height="50%">
+   <!--width="", sirve para modificar el ancho de la imagen ejemplo: width="500px" o tambien puedo utilizar porcentages ej 50%, 100% etc-->
+   <!--height="", sirve para modificar el alto de la imagen ejemplo: heith="500px" o tambien puedo utilizar porcentages ej 50%, 100% etc-->
+   
+   <!--figure, es la etiqueta que sirve como contenedor para las figuras o imagenes, con caracteristicas mayores, por ejemplo puedo agregarle una descripcion-->
+
+   <!--la etiqueta <br> es salto de linea y la etiqueta <hr> sirve para separar un parrafo por medio de una linea o salto de linea separado por linea-->
+
+   <figuere>
+    <img src="https://pbs.twimg.com/media/Fzb0NFdWwAM2mpb.jpg" alt="Millos" width="400" height="320">  
+    <!--figcaption, es una descripcion de la imagen-->  
+   <figcaption>Mi primer imagen con descripción</figcaption>
+   </figuere>
+
+    <!--iframe, es ta eqiqueta que me permite incorporar video y/o contenido que se encuentre en internet en mi html o sitio web-->
+
+    <iframe <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=1viSfadneMuv0Zg-&amp;list=PLhSj3UTs2_yVHt2DgHky_MzzRC58UHE4z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+   <!-- la etiqueta iframe src="" sirve para meter contenido de internet u otras paginas a mi sitio multimedia-->
+
+    <iframe src="https://luzlyherrera.github.io/" frameborder="0" width="550px" height="1000px"></iframe>
+
+    <!--para incorporar mapas , se ingresa a google maps, se busca el sitio o mapa que se desea incorporar y enter, en la descripcion, se muestran unos botones selecciono share, en la ventana emergente selecciono incorporar mapa aparece un menu desplegable con los tamaños del mapa y al lado el codigo embebido  clic en copy html -->
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.081083215137!2d-74.16008562431549!3d4.579460242695184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9f1aa7475d81%3A0x6f28a2ff1bedb5!2sUniversidad%20Distrital%20Francisco%20Jos%C3%A9%20De%20Caldas%20-%20Facultad%20Tecnol%C3%B3gica!5e0!3m2!1ses-419!2sco!4v1697491595825!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0" width="550px" height="1000px"></iframe>
+
+</body>
+</html>

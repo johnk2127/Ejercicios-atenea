@@ -1,0 +1,17 @@
+body{
+    background-color:rgb(245, 239, 206);
+}
+.titulo-principal{
+    color: blue;
+    /*font-family me da el tipo de letra que quiero poner a mi texto*/
+    font-family: cursive;
+    /*font-size me da el tamaño de la letra de los tectos*/
+    font-size:60px;
+    /*text-align me aliea el texto a donde yo desee, centro, derecha o izquierda */
+    text-align:center;
+    text-decoration:underline;
+    }
+
+    a{
+        text-decoration:none;
+    }
